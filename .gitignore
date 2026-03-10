@@ -4,3 +4,4 @@ docs/.vuepress/dist/
 docs/.vuepress/.temp/
 node_modules/
 yarn.lock
+docs/.vuepress/.cache/
