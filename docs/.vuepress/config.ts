@@ -49,6 +49,13 @@ const sidebar: SidebarOptions = [
       '/archives/all-releases',
     ]
   },
+  {
+    text: 'Community',
+    prefix: 'community',
+    children: [
+      '/community/release-guide',
+    ]
+  },
 ];
 
 const navbar: NavbarOptions = [
@@ -65,6 +72,9 @@ const navbar: NavbarOptions = [
     { text: 'v4.0.1', link: '/archives/v4.0.1' },
     { text: 'v4.0.0', link: '/archives/v4.0.0' },
     { text: 'All Archived Releases', link: '/archives/all-releases' },
+  ]},
+  { text: 'Community', children: [
+    { text: 'Release Guide', link: '/community/release-guide' },
   ]},
   {
     text: 'ASF',
